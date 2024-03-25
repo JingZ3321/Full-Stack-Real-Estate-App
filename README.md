@@ -1,34 +1,55 @@
 # Real Estate MERN Full-Stack Web Application
 
-Foobar is a Python library for dealing with word pluralization.
+This project is a full-stack web application built with the MERN (MongoDB, Express.js, React.js, Node.js) stack. It aims to create an awesome and responsive platform for real estate listings.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+```bash
+cd client && yarn init
+```
 
 ```bash
-pip install foobar
+cd server && yarn init
 ```
 
-## Usage
+Start the backend server: `cd server && yarn run start`
+Start the frontend development server: `cd client && yarn run dev`
 
-```python
-import foobar
+Access the application at `http://localhost:3000`
 
-# returns 'words'
-foobar.pluralize('word')
+## Project Structure
 
-# returns 'geese'
-foobar.pluralize('goose')
+real-estate-mern/
+│
+├── client/          # Frontend React application
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       ├── utils/
+│       ├── App.js
+│       ├── index.js
+│       └── ...
+│
+├── server/          # Backend Node.js application
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── config/
+│   ├── middleware/
+│   ├── services/
+│   ├── app.js
+│   └── ...
+│
+├── .env             # Environment variables
+├── README.md        # Project README file
+└── ...
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
+
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+PContributions are welcome! Feel free to open issues or submit pull requests.
 
 Please make sure to update tests as appropriate.
 
