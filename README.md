@@ -29,33 +29,33 @@ http://localhost:3000
 
 ## Project Structure
 
-real-estate/ <br>
-│<br>
-├── client/          # Frontend React application <br>
-│   ├── public/<br>
-│   └── src/<br>
-│       ├── components/<br>
-│       ├── pages/<br>
-│       ├── utils/<br>
-│       ├── App.js<br>
-│       ├── index.js<br>
-│       └── ...<br>
-│<br>
-├── server/          # Backend Node.js application<br>
-│   ├── controllers/<br>
-│   ├── models/<br>
-│   ├── routes/<br>
-│   ├── config/<br>
-│   ├── middleware/<br>
-│   ├── services/<br>
-│   ├── app.js<br>
-│   └── ...<br>
-│<br>
-├── .env             # Environment variables<br>
-├── README.md        # Project README file<br>
-└── ...<br>
-
-
+```
+real-estate-mern/
+│
+├── client/          # Frontend React application
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       ├── utils/
+│       ├── App.js
+│       ├── index.js
+│       └── ...
+│
+├── server/          # Backend Node.js application
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── config/
+│   ├── middleware/
+│   ├── services/
+│   ├── app.js
+│   └── ...
+│
+├── .env             # Environment variables
+├── README.md        # Project README file
+└── ...
+```
 
 ## Contributing
 
