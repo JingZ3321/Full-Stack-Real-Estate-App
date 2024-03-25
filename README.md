@@ -42,28 +42,29 @@ http://localhost:3000
 ```
 real-estate/
 │
-├── client/          # Frontend React application
+├── client/         
 │   ├── public/
 │   └── src/
 │       ├── components/
+│       ├── context/
+│       ├── hooks/
 │       ├── pages/
 │       ├── utils/
 │       ├── App.js
-│       ├── index.js
+│       ├── main.js
 │       └── ...
 │
-├── server/          # Backend Node.js application
+├── server/         
+│   ├── configcontrollers/
 │   ├── controllers/
-│   ├── models/
+│   ├── data/
+│   ├── Prisma/
 │   ├── routes/
-│   ├── config/
-│   ├── middleware/
-│   ├── services/
-│   ├── app.js
+│   ├── index.js/
 │   └── ...
 │
-├── .env             # Environment variables
-├── README.md        # Project README file
+├── .env             
+├── README.md        
 └── ...
 ```
 
