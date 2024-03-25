@@ -12,38 +12,48 @@ cd client && yarn init
 cd server && yarn init
 ```
 
-Start the backend server: `cd server && yarn run start`
-Start the frontend development server: `cd client && yarn run dev`
+Start the backend server:<br> 
+```bash
+cd server && yarn run start
+```
 
-Access the application at `http://localhost:3000`
+Start the frontend development server: <br> 
+```bash
+cd client && yarn run dev
+```
+
+Access the application at 
+```bash
+http://localhost:3000
+```
 
 ## Project Structure
 
-real-estate-mern/
+real-estate/ <br>
 │
-├── client/          # Frontend React application
-│   ├── public/
-│   └── src/
-│       ├── components/
-│       ├── pages/
-│       ├── utils/
-│       ├── App.js
-│       ├── index.js
-│       └── ...
+├── client/          # Frontend React application <br>
+│   ├── public/<br>
+│   └── src/<br>
+│       ├── components/<br>
+│       ├── pages/<br>
+│       ├── utils/<br>
+│       ├── App.js<br>
+│       ├── index.js<br>
+│       └── ...<br>
 │
-├── server/          # Backend Node.js application
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── config/
-│   ├── middleware/
-│   ├── services/
-│   ├── app.js
-│   └── ...
+├── server/          # Backend Node.js application<br>
+│   ├── controllers/<br>
+│   ├── models/<br>
+│   ├── routes/<br>
+│   ├── config/<br>
+│   ├── middleware/<br>
+│   ├── services/<br>
+│   ├── app.js<br>
+│   └── ...<br>
 │
-├── .env             # Environment variables
-├── README.md        # Project README file
-└── ...
+├── .env             # Environment variables<br>
+├── README.md        # Project README file<br>
+└── ...<br>
 
 
 
