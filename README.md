@@ -3,14 +3,14 @@
 This project is a full-stack web application built with the MERN (MongoDB, Express.js, React.js, Node.js) stack. It aims to create an awesome and responsive platform for real estate listings.
 
 ## Features
-React Hooks: Utilizes modern React features for state management and component lifecycle.
-React Router: Implements client-side routing for a seamless single-page application experience.
-Modern CSS: Utilizes modern CSS techniques for styling, ensuring a visually appealing user interface.
-Framer Motion: Implements animations and transitions using Framer Motion library for a polished user experience.
-MongoDB: Utilizes MongoDB as the database for storing real estate listings and related data.
-Cloudinary: Integrates Cloudinary for managing and storing images associated with real estate listings.
-Auth0: Implements authentication and authorization using Auth0 for secure user access.
-Mantine UI: Utilizes Mantine UI library for building responsive and accessible user interface components.
+- React Hooks: Utilizes modern React features for state management and component lifecycle.
+- React Router: Implements client-side routing for a seamless single-page application experience.
+- Modern CSS: Utilizes modern CSS techniques for styling, ensuring a visually appealing user interface.
+- Framer Motion: Implements animations and transitions using Framer Motion library for a polished user experience.
+- MongoDB: Utilizes MongoDB as the database for storing real estate listings and related data.
+- Cloudinary: Integrates Cloudinary for managing and storing images associated with real estate listings.
+- Auth0: Implements authentication and authorization using Auth0 for secure user access.
+- Mantine UI: Utilizes Mantine UI library for building responsive and accessible user interface components.
 
 ## Installation
 
