@@ -1,4 +1,4 @@
-# Real Estate MERN Full-Stack Web Application
+# Full-Stack Real Estate MERN Web Application
 
 This project is a full-stack web application built with the MERN (MongoDB, Express.js, React.js, Node.js) stack. It aims to create an awesome and responsive platform for real estate listings.
 
@@ -40,7 +40,7 @@ http://localhost:3000
 ## Project Structure
 
 ```
-real-estate-mern/
+real-estate/
 │
 ├── client/          # Frontend React application
 │   ├── public/
